@@ -30,29 +30,15 @@ We seek a solution for an application that offers personalized health guidance, 
 
 ## Team Member Details:
 - **Team Leader Name:** Rishi Banerjee  
-  - **Branch (Btech):** CSE  
-  - **Stream:** CSE  
-  - **Year:** II
-
 - **Team Member 1 Name:** Shreeya Das  
-  - **Branch (Btech):** CSE  
-  - **Stream:** CSE  
-  - **Year:** II
-
 - **Team Member 2 Name:** Ayush Ranjan  
-  - **Branch (Btech):** CSE  
-  - **Stream:** CSE  
-  - **Year:** II
-
 - **Team Member 3 Name:** Harshit Ghosh  
-  - **Branch (Btech):** CSE  
-  - **Stream:** CSE  
-  - **Year:** II
-
 - **Team Member 4 Name:** Jyotika Jayani  
-  - **Branch (Btech):** CSE  
-  - **Stream:** CSE  
-  - **Year:** II
-
 - **Team Member 5 Name:** Ananya Sahoo  
-  - **Branch (Btech):** CSE
+
+## Programming languages and tools used:-
+<p align="left">
+<a href="https://figma.com" target="_blank" rel="noreferrer"> <img src="https://static-00.iconduck.com/assets.00/figma-icon-2048x2048-ule4368e.png" alt="Figma" width="40" height="40"/> </a> </p>
+
+## Developer
+*   [@QwertyFusion](https://github.com/QwertyFusion)
