@@ -38,7 +38,8 @@ We seek a solution for an application that offers personalized health guidance, 
 
 ## Programming languages and tools used:-
 <p align="left">
-<a href="https://figma.com" target="_blank" rel="noreferrer"> <img src="https://static-00.iconduck.com/assets.00/figma-icon-2048x2048-ule4368e.png" alt="Figma" width="40" height="40"/> </a> </p>
+<a href="https://figma.com" target="_blank" rel="noreferrer"> <img src="https://static-00.iconduck.com/assets.00/figma-icon-2048x2048-ule4368e.png" alt="Figma" width="40" height="40"/> </a> 
+<a href=https://kotlinlang.org target="_blank" rel="noreferrer"> <img src=https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg alt="android" width="40" height="40"/> </a> </p>
 
 ## Developer
 *   [@QwertyFusion](https://github.com/QwertyFusion)
