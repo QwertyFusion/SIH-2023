@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listdrlivingstoneRowModel" type="com.sapplication.app.modules.guideselfnotespage.data.model.ListdrlivingstoneRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearCard"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal" style="@style/groupStylegray_1">
+        <FrameLayout android:id="@+id/frameStackdrlivingstone"
+            android:layout_height="@dimen/_32pxv"
+            android:layout_marginBottom="@dimen/_10pxv"
+            android:layout_marginStart="@dimen/_14pxh"
+            android:layout_marginTop="@dimen/_12pxv" android:layout_width="@dimen/_188pxh">
+            <TextView android:ellipsize="end"
+                android:gravity="top|start"
+                android:id="@+id/txtDrLivingstone"
+                android:layout_gravity="top|start"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10pxv"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{listdrlivingstoneRowModel.txtDrLivingstone}"
+                style="@style/txtOpenSansromansemibold13" tools:text="@string/lbl_dr_livingstone"/>
+            <TextView android:ellipsize="end"
+                android:gravity="top|start"
+                android:id="@+id/txtTherapistBoo"
+                android:layout_gravity="bottom|start"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{listdrlivingstoneRowModel.txtTherapistBoo}"
+                style="@style/txtOpenSansromanregular11" tools:text="@string/msg_therapist_boo"/>
+            <ImageView android:id="@+id/imageTelevision"
+                android:layout_gravity="top|end"
+                android:layout_height="@dimen/_10pxh"
+                android:layout_marginBottom="@dimen/_10pxv"
+                android:layout_marginEnd="@dimen/_16pxh"
+                android:layout_marginStart="@dimen/_16pxh"
+                android:layout_marginTop="@dimen/_2pxv"
+                android:layout_width="@dimen/_67pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_television"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_television"/>
+        </FrameLayout>
+        <ImageView android:id="@+id/imageMegaphone"
+            android:layout_height="@dimen/_13pxh"
+            android:layout_marginBottom="@dimen/_22pxv"
+            android:layout_marginEnd="@dimen/_20pxh"
+            android:layout_marginStart="@dimen/_73pxh"
+            android:layout_marginTop="@dimen/_21pxv"
+            android:layout_width="@dimen/_15pxh"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_megaphone"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_megaphone"/>
+    </LinearLayout>
+</layout>

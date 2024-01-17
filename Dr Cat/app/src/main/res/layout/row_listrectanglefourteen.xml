@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listrectanglefourteenRowModel" type="com.sapplication.app.modules.doctorpage.data.model.ListrectanglefourteenRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearCard"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal" style="@style/groupStylegray_1">
+        <LinearLayout android:id="@+id/linearRowrectanglefourteen"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_10pxv"
+            android:layout_marginStart="@dimen/_9pxh"
+            android:layout_marginTop="@dimen/_9pxv"
+            android:layout_weight="0.69" android:layout_width="0dp" android:orientation="horizontal">
+            <View
+                android:background="@drawable/rectangle_bg_teal_200_radius_5"
+                android:id="@+id/viewRectangleFourteen"
+                android:layout_height="@dimen/_37pxh" android:layout_width="@dimen/_37pxh"/>
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearColumndralicethomp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_1pxv"
+                android:layout_marginStart="@dimen/_15pxh"
+                android:layout_marginTop="@dimen/_2pxv"
+                android:layout_weight="0.78" android:layout_width="0dp" android:orientation="vertical">
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtDrAliceThomp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_9pxh"
+                    android:layout_width="match_parent"
+                    android:singleLine="true"
+                    android:text="@{listrectanglefourteenRowModel.txtDrAliceThomp}"
+                    style="@style/txtOpenSansromansemibold13" tools:text="@string/msg_dr_alice_thomp"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtPrice"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_1pxv"
+                    android:layout_width="match_parent"
+                    android:singleLine="true"
+                    android:text="@{listrectanglefourteenRowModel.txtPrice}"
+                    style="@style/txtOpenSansromanregular11" tools:text="@string/msg_cardiologist"/>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:id="@+id/imageTelevision"
+            android:layout_height="@dimen/_10pxh"
+            android:layout_marginBottom="@dimen/_32pxv"
+            android:layout_marginStart="@dimen/_1pxh"
+            android:layout_marginTop="@dimen/_14pxv"
+            android:layout_width="@dimen/_67pxh"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_television"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_television"/>
+        <ImageView android:id="@+id/imageMegaphone"
+            android:layout_height="@dimen/_13pxh"
+            android:layout_marginBottom="@dimen/_22pxv"
+            android:layout_marginEnd="@dimen/_20pxh"
+            android:layout_marginStart="@dimen/_15pxh"
+            android:layout_marginTop="@dimen/_21pxv"
+            android:layout_width="@dimen/_15pxh"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_megaphone"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_megaphone"/>
+    </LinearLayout>
+</layout>

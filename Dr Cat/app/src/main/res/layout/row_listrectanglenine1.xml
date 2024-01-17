@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listrectanglenine1RowModel" type="com.sapplication.app.modules.medicinehospitalpage.data.model.Listrectanglenine1RowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRowrectanglenine"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearColumnrectanglenine"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25" android:layout_width="0dp"
+            android:orientation="vertical" style="@style/groupStylecornerRadius">
+            <View
+                android:background="@drawable/rectangle_bg_purple_200_radius_5"
+                android:id="@+id/viewRectangleNine"
+                android:layout_height="@dimen/_55pxh" android:layout_width="@dimen/_55pxh"/>
+            <TextView android:gravity="center_horizontal"
+                android:id="@+id/txtMedicineStores"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_3pxh"
+                android:layout_marginStart="@dimen/_3pxh"
+                android:layout_marginTop="@dimen/_3pxv"
+                android:layout_width="match_parent"
+                android:text="@{listrectanglenine1RowModel.txtMedicineStores}"
+                style="@style/txtOpenSansromansemibold11" tools:text="@string/lbl_medicine_stores"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearColumnrectangleten"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_17pxv"
+            android:layout_marginStart="@dimen/_30pxh"
+            android:layout_weight="0.25" android:layout_width="0dp"
+            android:orientation="vertical" style="@style/groupStylecornerRadius">
+            <View
+                android:background="@drawable/rectangle_bg_deep_orange_200_radius_5"
+                android:id="@+id/viewRectangleTen"
+                android:layout_height="@dimen/_55pxh" android:layout_width="@dimen/_55pxh"/>
+            <TextView android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:id="@+id/txtTestLabs"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_2pxh"
+                android:layout_marginStart="@dimen/_1pxh"
+                android:layout_marginTop="@dimen/_3pxv"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{listrectanglenine1RowModel.txtTestLabs}"
+                style="@style/txtOpenSansromansemibold11" tools:text="@string/lbl_test_labs"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearColumnrectangleeleven"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_30pxh"
+            android:layout_weight="0.25" android:layout_width="0dp"
+            android:orientation="vertical" style="@style/groupStylecornerRadius">
+            <View
+                android:background="@drawable/rectangle_bg_green_200_radius_5"
+                android:id="@+id/viewRectangleEleven"
+                android:layout_height="@dimen/_55pxh" android:layout_width="@dimen/_55pxh"/>
+            <TextView android:gravity="center_horizontal"
+                android:id="@+id/txtMindsetCoaches"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_5pxh"
+                android:layout_marginStart="@dimen/_4pxh"
+                android:layout_marginTop="@dimen/_3pxv"
+                android:layout_width="match_parent"
+                android:text="@{listrectanglenine1RowModel.txtMindsetCoaches}"
+                style="@style/txtOpenSansromansemibold11" tools:text="@string/lbl_mindset_coaches"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearColumnrectangletwelve"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_15pxv"
+            android:layout_marginStart="@dimen/_30pxh"
+            android:layout_weight="0.25" android:layout_width="0dp"
+            android:orientation="vertical" style="@style/groupStylecornerRadius">
+            <View
+                android:background="@drawable/rectangle_bg_teal_200_radius_5"
+                android:id="@+id/viewRectangleTwelve"
+                android:layout_height="@dimen/_55pxh" android:layout_width="@dimen/_55pxh"/>
+            <TextView android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:id="@+id/txtHospitals"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_2pxh"
+                android:layout_marginStart="@dimen/_3pxh"
+                android:layout_marginTop="@dimen/_4pxv"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{listrectanglenine1RowModel.txtHospitals}"
+                style="@style/txtOpenSansromansemibold11" tools:text="@string/lbl_hospitals"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

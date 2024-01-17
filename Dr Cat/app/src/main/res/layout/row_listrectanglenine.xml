@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listrectanglenineRowModel" type="com.sapplication.app.modules.doctorpage.data.model.ListrectanglenineRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRowrectanglenine"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearColumnrectanglenine"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_1pxv"
+            android:layout_weight="0.25" android:layout_width="0dp"
+            android:orientation="vertical" style="@style/groupStylecornerRadius">
+            <View
+                android:background="@drawable/rectangle_bg_purple_200_radius_5"
+                android:id="@+id/viewRectangleNine"
+                android:layout_height="@dimen/_55pxh" android:layout_width="@dimen/_55pxh"/>
+            <TextView android:gravity="center_horizontal"
+                android:id="@+id/txtFullbodycheck"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_3pxh"
+                android:layout_marginStart="@dimen/_3pxh"
+                android:layout_marginTop="@dimen/_3pxv"
+                android:layout_width="match_parent"
+                android:text="@{listrectanglenineRowModel.txtFullbodycheck}"
+                style="@style/txtOpenSansromansemibold11" tools:text="@string/msg_full_body_check"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearColumnrectangleten"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_16pxv"
+            android:layout_marginStart="@dimen/_28pxh"
+            android:layout_weight="0.26" android:layout_width="0dp"
+            android:orientation="vertical" style="@style/groupStylecornerRadius">
+            <View
+                android:background="@drawable/rectangle_bg_deep_orange_200_radius_5"
+                android:id="@+id/viewRectangleTen"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/_55pxh"
+                android:layout_marginEnd="@dimen/_1pxh"
+                android:layout_marginStart="@dimen/_1pxh" android:layout_width="@dimen/_55pxh"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtEmergency"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4pxv"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{listrectanglenineRowModel.txtEmergency}"
+                style="@style/txtOpenSansromansemibold11" tools:text="@string/lbl_emergency"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearColumnrectangleeleven"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_28pxh"
+            android:layout_weight="0.25" android:layout_width="0dp"
+            android:orientation="vertical" style="@style/groupStylecornerRadius">
+            <View
+                android:background="@drawable/rectangle_bg_green_200_radius_5"
+                android:id="@+id/viewRectangleEleven"
+                android:layout_height="@dimen/_55pxh" android:layout_width="@dimen/_55pxh"/>
+            <TextView android:gravity="center_horizontal"
+                android:id="@+id/txtWomensHealth"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_3pxh"
+                android:layout_marginStart="@dimen/_2pxh"
+                android:layout_marginTop="@dimen/_4pxv"
+                android:layout_width="match_parent"
+                android:text="@{listrectanglenineRowModel.txtWomensHealth}"
+                style="@style/txtOpenSansromansemibold11" tools:text="@string/lbl_women_s_health"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearColumnrectangletwelve"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_30pxh"
+            android:layout_weight="0.25" android:layout_width="0dp"
+            android:orientation="vertical" style="@style/groupStylecornerRadius">
+            <View
+                android:background="@drawable/rectangle_bg_teal_200_radius_5"
+                android:id="@+id/viewRectangleTwelve"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_55pxh" android:layout_width="@dimen/_55pxh"/>
+            <TextView android:gravity="center_horizontal"
+                android:id="@+id/txtMensHealth"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_9pxh"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_4pxv"
+                android:layout_width="match_parent"
+                android:text="@{listrectanglenineRowModel.txtMensHealth}"
+                style="@style/txtOpenSansromansemibold11" tools:text="@string/lbl_men_s_health"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

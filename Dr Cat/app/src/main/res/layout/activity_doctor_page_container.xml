@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="doctorPageContainerVM" type="com.sapplication.app.modules.doctorpagecontainer.data.viewmodel.DoctorPageContainerVM"/>
+    </data>
+    <LinearLayout android:gravity="start"
+        android:id="@+id/linearColumntopleft"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_200">
+        <FrameLayout android:id="@+id/fragmentContainer"
+            android:layout_height="match_parent"
+            android:layout_weight="1" android:layout_width="match_parent"/>
+        <FrameLayout android:id="@+id/frameBottombar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" style="@style/groupStylecyan_405">
+            <LinearLayout android:id="@+id/linearRowglobe"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_8pxv"
+                android:layout_marginTop="@dimen/_11pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <FrameLayout android:id="@+id/frameWebButton"
+                    android:layout_height="@dimen/_35pxv"
+                    android:layout_marginBottom="@dimen/_2pxv"
+                    android:layout_marginTop="@dimen/_4pxv"
+                    android:layout_width="@dimen/_35pxh" style="@style/groupStylecyan_404cornerRadius">
+                    <ImageView android:id="@+id/imageGlobe"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_23pxh"
+                        android:layout_marginHorizontal="@dimen/_5pxh"
+                        android:layout_marginVertical="@dimen/_5pxv"
+                        android:layout_width="@dimen/_23pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_globe"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_globe"/>
+                </FrameLayout>
+                <FrameLayout android:id="@+id/frameDoctorButton"
+                    android:layout_height="@dimen/_41pxv"
+                    android:layout_width="@dimen/_41pxh" style="@style/groupStylecyan_4">
+                    <ImageView android:id="@+id/imageThumbsup"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_24pxh"
+                        android:layout_marginBottom="@dimen/_8pxv"
+                        android:layout_marginTop="@dimen/_8pxv"
+                        android:layout_width="@dimen/_25pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_thumbsup"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_thumbsup"/>
+                </FrameLayout>
+                <ImageView android:id="@+id/imageLock"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/_29pxh"
+                    android:layout_marginBottom="@dimen/_7pxv"
+                    android:layout_marginStart="@dimen/_36pxh"
+                    android:layout_marginTop="@dimen/_4pxv"
+                    android:layout_width="@dimen/_29pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_lock_cyan_404"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_lock_cyan_404"/>
+                <FrameLayout android:id="@+id/frameHospitalButton"
+                    android:layout_height="@dimen/_35pxv"
+                    android:layout_marginBottom="@dimen/_3pxv"
+                    android:layout_marginTop="@dimen/_3pxv"
+                    android:layout_width="@dimen/_35pxh" style="@style/groupStylecyan_404cornerRadius">
+                    <ImageView android:id="@+id/imageHome"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_22pxh"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:layout_marginTop="@dimen/_5pxv"
+                        android:layout_width="@dimen/_25pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_home"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_home"/>
+                </FrameLayout>
+                <FrameLayout android:id="@+id/frameFAQButton"
+                    android:layout_height="@dimen/_33pxv"
+                    android:layout_marginBottom="@dimen/_4pxv"
+                    android:layout_marginTop="@dimen/_4pxv"
+                    android:layout_width="@dimen/_33pxh" style="@style/groupStylecyan_1">
+                    <ImageView android:id="@+id/imageUser"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_19pxh"
+                        android:layout_marginBottom="@dimen/_6pxv"
+                        android:layout_marginTop="@dimen/_7pxv"
+                        android:layout_width="@dimen/_25pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_user"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_user"/>
+                </FrameLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

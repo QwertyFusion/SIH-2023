@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listlanguageOneRowModel" type="com.sapplication.app.modules.guideselfnotespage.data.model.ListlanguageOneRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearCard"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal" style="@style/groupStylegray_1">
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearColumnlanguage"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_10pxv"
+            android:layout_marginStart="@dimen/_14pxh"
+            android:layout_marginTop="@dimen/_12pxv"
+            android:layout_weight="0.95" android:layout_width="0dp" android:orientation="vertical">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtLanguageOne"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{listlanguageOneRowModel.txtLanguageOne}"
+                style="@style/txtOpenSansromansemibold13" tools:text="@string/msg_diet_guide_fo"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtMakeaHealthy"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_1pxv"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{listlanguageOneRowModel.txtMakeaHealthy}"
+                style="@style/txtOpenSansromanregular11" tools:text="@string/msg_make_a_healthy"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/imageMegaphoneThree"
+            android:layout_height="@dimen/_13pxh"
+            android:layout_marginBottom="@dimen/_22pxv"
+            android:layout_marginEnd="@dimen/_20pxh"
+            android:layout_marginTop="@dimen/_21pxv"
+            android:layout_width="@dimen/_15pxh"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_megaphone"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_megaphone"/>
+    </LinearLayout>
+</layout>
