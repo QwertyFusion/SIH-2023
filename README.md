@@ -1,4 +1,4 @@
-![image](https://github.com/QwertyFusion/SIH-2023/assets/60546350/8e304755-a2d2-4a01-ab30-aef141ca6d04)# Development and Implementation of a Comprehensive Integrated Health Awareness System App
+# Development and Implementation of a Comprehensive Integrated Health Awareness System App
 
 **Team Name:** Brainstorm Brewers  
 **Team Leader Name:** Rishi Banerjee  
