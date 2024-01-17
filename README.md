@@ -29,12 +29,12 @@ We seek a solution for an application that offers personalized health guidance, 
 10. Competent feedback mechanism for the system’s continuous improvement.
 
 ## Team Member Details:
-- **Team Leader Name:** Rishi Banerjee  
-- **Team Member 1 Name:** Shreeya Das  
-- **Team Member 2 Name:** Ayush Ranjan  
-- **Team Member 3 Name:** Harshit Ghosh  
-- **Team Member 4 Name:** Jyotika Jayani  
-- **Team Member 5 Name:** Ananya Sahoo  
+- **Team Leader Name:** Rishi Banerjee (Prototype Creation in Figma)
+- **Team Member 1 Name:** Shreeya Das (Ideation, Presentation)
+- **Team Member 2 Name:** Ayush Ranjan (Ideation, Presentation)
+- **Team Member 3 Name:** Harshit Ghosh (Research and Development)
+- **Team Member 4 Name:** Jyotika Jayani (Research and Development)
+- **Team Member 5 Name:** Ananya Sahoo (Research and Development, Presentation)
 
 ## Programming languages and tools used:-
 <p align="left">
