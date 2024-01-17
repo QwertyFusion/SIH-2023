@@ -1,4 +1,4 @@
-# Development and Implementation of a Comprehensive Integrated Health Awareness System App
+![image](https://github.com/QwertyFusion/SIH-2023/assets/60546350/8e304755-a2d2-4a01-ab30-aef141ca6d04)# Development and Implementation of a Comprehensive Integrated Health Awareness System App
 
 **Team Name:** Brainstorm Brewers  
 **Team Leader Name:** Rishi Banerjee  
@@ -38,7 +38,7 @@ We seek a solution for an application that offers personalized health guidance, 
 
 ## Programming languages and tools used:-
 <p align="left">
-<a href="https://figma.com" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1667px-Figma-logo.svg.png" alt="Figma" width="40" height="40"/> </a> 
+<a href="https://figma.com" target="_blank" rel="noreferrer"> <img src="https://github.com/QwertyFusion/SIH-2023/assets/60546350/312370e5-6520-4eb4-94b1-f086b70dfe6e" alt="Figma" width="40" height="40"/> </a> 
 <a href=https://kotlinlang.org target="_blank" rel="noreferrer"> <img src=https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg alt="android" width="40" height="40"/> </a> </p>
 
 ## Developer
