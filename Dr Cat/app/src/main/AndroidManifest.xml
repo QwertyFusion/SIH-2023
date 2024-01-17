@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest package="com.sapplication.app" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" android:largeHeap="true"
+        android:name="com.sapplication.app.appcomponents.di.MyApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true" android:theme="@style/Theme.MyApp" android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.sapplication.app.modules.loginpage.ui.LoginPageActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sapplication.app.modules.accountpage.ui.AccountPageActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sapplication.app.modules.doctorpagecontainer.ui.DoctorPageContainerActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sapplication.app.modules.accountpagecontentpage.ui.AccountPageContentPageActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sapplication.app.modules.guideselfnotespage.ui.GuideSelfNotesPageActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sapplication.app.modules.registerpage.ui.RegisterPageActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sapplication.app.modules.forumpage.ui.ForumPageActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true"
+            android:name="com.sapplication.app.modules.startingpage.ui.StartingPageActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sapplication.app.modules.medicinehospitalpage.ui.MedicineHospitalPageActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sapplication.app.modules.scanpage.ui.ScanPageActivity" android:screenOrientation="portrait"/>
+    </application>
+</manifest>

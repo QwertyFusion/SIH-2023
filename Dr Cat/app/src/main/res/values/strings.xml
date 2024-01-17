@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">151_s_application</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="lbl_medicine_list">Medicine List</string>
+  <string name="lbl_diet_tracker">Diet Tracker</string>
+  <string name="lbl_manage_devices">Manage Devices</string>
+  <string name="lbl_alerts">Alerts</string>
+  <string name="lbl_insaurance">Insaurance</string>
+  <string name="lbl_lic">LIC</string>
+  <string name="msg_diet_guide_fo">Diet Guide | Foodies Matrix </string>
+  <string name="msg_confirm_passwor">Confirm password</string>
+  <string name="lbl_mindset_coaches">Mindset
+Coaches</string>
+  <string name="lbl_children_health">Children Health</string>
+  <string name="msg_manage_your_bad">Manage Your Badges</string>
+  <string name="lbl_men_s_health">Men\u2019s Health</string>
+  <string name="msg_tell_us_about_y">Tell us about yourself</string>
+  <string name="msg_top_doctor_prof">Top Doctor Profiles Nearby</string>
+  <string name="lbl_search_doctors">Search doctors</string>
+  <string name="msg_do_not_have_an">Do not have an account? </string>
+  <string name="msg_login_and_secur">Login and Security</string>
+  <string name="msg_already_have_an">Already have an account? </string>
+  <string name="msg_dr_alice_thomp">Dr. Alice Thompson</string>
+  <string name="lbl_categories">Categories</string>
+  <string name="msg_enter_your_full">Enter your full name</string>
+  <string name="msg_search_stores">Search stores, hospitals, labs, services</string>
+  <string name="msg_subscription_t2">Subscription| Till August 26, 2024</string>
+  <string name="msg_check_up_histor">Check-Up History</string>
+  <string name="lbl_photo_id_proofs">Photo ID Proofs</string>
+  <string name="lbl_dr_dan_fury">Dr. Dan Fury</string>
+  <string name="lbl_sign_in">Sign in</string>
+  <string name="msg_full_body_check">Full body check up</string>
+  <string name="msg_manage_your_pro">Manage Your Profile</string>
+  <string name="lbl_physical_health">Physical Health</string>
+  <string name="msg_pediatrician">Pediatrician | 1.3km away</string>
+  <string name="lbl_get_started">Get Started</string>
+  <string name="msg_therapist_boo">Therapist | Booking tomorrow 3p.m.</string>
+  <string name="lbl_notifications">Notifications</string>
+  <string name="msg_hello_there_do2">Hello there, do you have any recommendations in diet planning?</string>
+  <string name="msg_account_setting">Account Settings</string>
+  <string name="lbl_family_connect">Family Connect</string>
+  <string name="msg_lorem_ipsum_dol">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fringilla molestie ipsum id facilisis.</string>
+  <string name="lbl_location">Location</string>
+  <string name="msg_close_your_dr">Close Your Dr. Cat Account</string>
+  <string name="msg_your_personal_h">Your Personal Health Guide</string>
+  <string name="msg_therapist_1_2">Therapist | 1.2km away</string>
+  <string name="lbl_register">Register</string>
+  <string name="lbl">....</string>
+  <string name="msg_scan_to_give_yo">Scan to give your information to any service hastle free</string>
+  <string name="lbl_medi_cart">Medi Cart</string>
+  <string name="lbl_health_apps">Health Apps</string>
+  <string name="lbl_share_qr_code">Share QR code</string>
+  <string name="lbl_sleep_tracker">Sleep Tracker</string>
+  <string name="msg_edit_your_infor">Edit your Information</string>
+  <string name="msg_hello_adam_ste">Hello, Adam Steve!</string>
+  <string name="lbl_hospitals">Hospitals</string>
+  <string name="lbl_distance">Distance</string>
+  <string name="msg_hello_there_do">Hello there, do you need any help? </string>
+  <string name="msg_review_your_doc">Review Your Doctors</string>
+  <string name="lbl_services">Services</string>
+  <string name="lbl_mental_health">Mental Health</string>
+  <string name="lbl_medicine_store">Medicine Store</string>
+  <string name="lbl_health_guides">Health Guides</string>
+  <string name="lbl_emergency">Emergency</string>
+  <string name="lbl_dr">Dr. </string>
+  <string name="lbl_login">Login</string>
+  <string name="lbl_mindset_guides">Mindset
+Guides</string>
+  <string name="lbl_adam_steve">Adam Steve!
+</string>
+  <string name="lbl_log_in_options">Log-In Options</string>
+  <string name="msg_delete_your_inf">Delete your Information</string>
+  <string name="msg_751024_bhubane">751024, Bhubaneswar</string>
+  <string name="msg_email_id_adams">Email ID: adamsteve57@hotmail.com
+Mr. Cat ID: 21222345</string>
+  <string name="lbl_medicine_stores">Medicine Stores</string>
+  <string name="msg_log_out_of_exis">Log Out Of Existing User</string>
+  <string name="lbl_symptom_tracker">Symptom Tracker</string>
+  <string name="msg_data_and_privac">Data and Privacy</string>
+  <string name="msg_cardiologist">Cardiologist | 531m away</string>
+  <string name="lbl_test_labs">Test Labs</string>
+  <string name="lbl_hospital">Hospital</string>
+  <string name="lbl_elderly_care">Elderly Care</string>
+  <string name="msg_enter_your_emai">Enter your email ID</string>
+  <string name="lbl_welcome_back">Welcome Back!</string>
+  <string name="lbl_ambulance">Ambulance</string>
+  <string name="msg_welcome_onboard">Welcome Onboard!</string>
+  <string name="msg_insaurance_deta">Insaurance
+Details</string>
+  <string name="msg_make_a_healthy">Make a Healthy Beetroot Juice at home todat...</string>
+  <string name="lbl_help">Help</string>
+  <string name="msg_health_guide">Health Guide | Osum Yoga Team</string>
+  <string name="lbl_dr_livingstone">Dr. Livingstone</string>
+  <string name="lbl_enter_password">Enter password</string>
+  <string name="lbl_privacy_notice">Privacy Notice</string>
+  <string name="lbl_switch_user">Switch User</string>
+  <string name="lbl_women_s_health">Women\u2019s Health</string>
+  <string name="lbl_type">Type</string>
+  <string name="msg_subscription_t">Subscription| Till August 26, 2056 </string>
+  <string name="msg_adam_steve_ema">Adam Steve!
+Email ID: adamsteve57@hotmail.com
+Mr. Cat ID: 21222345</string>
+<string name="msg_please_enter_valid_email">Please enter valid email</string>
+<string name="msg_please_enter_valid_pa">Please enter valid password</string>
+<string name="msg_please_enter_valid_text">Please enter valid text</string>
+</resources>
